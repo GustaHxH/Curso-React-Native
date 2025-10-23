@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-      <h1>Hello World React + Vite </h1>
+      <h1>Hello World React + Vites </h1>
+      <p>Eu estou fazendo testes na pagina App.jsx</p>
     </>
   )
 }
