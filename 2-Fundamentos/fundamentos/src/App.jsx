@@ -1,10 +1,12 @@
 //Componentes
 import FisrtComponent from  "./components/FirstComponent"
 import TemplateExpressions from "./components/TemplateExpressions"
+import MyComponent from "./components/MyComponent";
+import Events from "./components/Events";
 
 //Styles //CSS
-import { useState } from 'react'
 import './App.css'
+
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <h1>Fundamentos React</h1>
         <FisrtComponent/>
         <TemplateExpressions/>
+        <MyComponent/>
+        <Events/>
       </div>
     </>
   );

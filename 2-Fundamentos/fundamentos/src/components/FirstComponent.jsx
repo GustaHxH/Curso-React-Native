@@ -1,4 +1,5 @@
-//arquivos de estilo
+//Importação de componente para saber a hierarquia
+import MyComponent from "./MyComponent";
 
 const FisrtComponent =  () =>{
     //Essa função faz isso TESTE
@@ -8,6 +9,7 @@ const FisrtComponent =  () =>{
             {/*Comentario interno*/}
             <h1>Meu primeiro componente</h1>
             <p className="Teste">Meu texto</p>
+            <MyComponent/>
         </div>
     );
 };
