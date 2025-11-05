@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Teste 1 React</h1>
+      <h1>laurie</h1>
       <p>Este é meu primeiro teste usando o react...</p>
     </>
   )
