@@ -1,5 +1,6 @@
 //Componentes
 import FisrtComponent from  "./components/FirstComponent"
+import TemplateExpressions from "./components/TemplateExpressions"
 
 //Styles //CSS
 import { useState } from 'react'
@@ -11,6 +12,7 @@ function App() {
       <div className='App'>
         <h1>Fundamentos React</h1>
         <FisrtComponent/>
+        <TemplateExpressions/>
       </div>
     </>
   );
